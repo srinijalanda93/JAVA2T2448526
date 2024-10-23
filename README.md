@@ -8,6 +8,7 @@
   <h3>Alphabet War <a href="https://github.com/srinijalanda93/JAVA2T2448526/blob/main/Lab1p2.java">"Lab1p2.java"</a></h3>
   <img width="625" alt="image" src="https://github.com/user-attachments/assets/e66ff320-4b30-4e9f-aaee-56261126da13">
 </div>
-  
 
+<h1>Lab-2 Program 1</h1>
+<img width="671" alt="image" src="https://github.com/user-attachments/assets/2dcb8005-35d0-4bee-b2c6-b18c7365b61d">
 
