@@ -11,4 +11,7 @@
 
 <h1>Lab-2 Program 1</h1>
 <img width="671" alt="image" src="https://github.com/user-attachments/assets/2dcb8005-35d0-4bee-b2c6-b18c7365b61d">
+<h1>Lab-2 Program-2</h1>
+<img width="485" alt="image" src="https://github.com/user-attachments/assets/3c857142-874a-4dbc-91bb-35140ed4974f">
+
 
