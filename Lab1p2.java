@@ -40,7 +40,7 @@ class AlphabetWarGame {
 
     // Method Overloading: Calculate the winner with a single input string
     public String calculateWinner(String input) {
-        int n = input.length(); // Length of the string
+        int n = input.length(); // length of the string
         int leftBattleSum = 0, rightBattleSum = 0; // Initialize sums to zero
 
         if (n % 2 == 0) { // If the length is even
@@ -121,16 +121,16 @@ public class Lab1p2 {
         AlphabetWarGame defaultGame = new AlphabetWarGame();
 
         // Test cases with default strengths
-        System.out.println(defaultGame.calculateWinner("zdqmwpbs")); // Expected: Let's fight again!
-        System.out.println(defaultGame.calculateWinner("wwwwwwz"));  // Expected: Left side wins!
-        System.out.println(defaultGame.calculateWinner("wbzzzspqds")); // Expected: Left side wins!
+        System.out.println(defaultGame.calculateWinner("zdqmwpbs")); // expected: Let's fight again!
+        System.out.println(defaultGame.calculateWinner("wwwwwwz"));  // expected: Left side wins!
+        System.out.println(defaultGame.calculateWinner("wbzzzspqds")); // expected: Left side wins!
 
         // Using method overloading with separate left and right strings
-        System.out.println(defaultGame.calculateWinner("wpbs", "zmdq")); // Expected: Let's fight again!
+        System.out.println(defaultGame.calculateWinner("wpbs", "zmdq")); // expected: Let's fight again!
 
         // Custom strengths (customizing the constructor)
         AlphabetWarGame customGame = new AlphabetWarGame(5, 3, 2, 1, 6, 4, 2, 1);  // Custom strengths
-        System.out.println(customGame.calculateWinner("zdqmwpbs")); // Expected: (depends on custom strengths)
+        System.out.println(customGame.calculateWinner("zdqmwpbs")); // expected: (depends on custom strengths)
 
         // Using method overloading with custom strengths
         System.out.println(customGame.calculateWinner("wbb", "zqd")); // Custom outcome

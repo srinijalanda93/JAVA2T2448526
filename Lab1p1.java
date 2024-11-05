@@ -113,7 +113,7 @@ class BankValidation {
         long remDigit = cardNumber / 10;
         // Step b: Reverse the remaining digits.
         long numRev = reverseDigit(remDigit);
-        // Step c: Double at odd number, followed by sum if digit > 9
+        // Step c: Double at odd number/places, followed by sum if digit > 9
         long doubleNum = digitDouble(numRev, count - 1);
         // Step d: Add up all the digits.
         int finalSum = (int) summation(doubleNum);
