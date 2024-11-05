@@ -20,4 +20,65 @@
 <h1>Lab-2 Program-2</h1>
 <img width="485" alt="image" src="https://github.com/user-attachments/assets/3c857142-874a-4dbc-91bb-35140ed4974f">
 
+<h1>LAB-3 PROGRAM</h1>
+<h1>Employee Management System</h1>
+<img width="581" alt="image" src="https://github.com/user-attachments/assets/fad742be-4933-4f2a-b639-b5d8fda5c2bf">
+
+
+<p>The code defines an employee management system using Java, consisting of a base class <code>Employ</code> and three subclasses (<code>HourlyEmploy</code>, <code>SalariedEmploy</code>, and <code>ExecutiveEmploy</code>). It demonstrates concepts of inheritance, encapsulation, and method overriding.</p>
+
+<h2>Key Components</h2>
+
+<h3>Base Class - <code>Employ</code>:</h3>
+<ul>
+    <li><strong>Attributes:</strong> Contains static and instance variables to hold employee details (name, designation, ID).</li>
+    <li><strong>Constructor:</strong> Initializes employee details.</li>
+    <li><strong>Methods:</strong>
+        <ul>
+            <li><code>getDetails()</code>: Prints employee information.</li>
+            <li><code>calculationBonus()</code>: A private method for bonus calculations (not used in the current implementation).</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Subclass - <code>HourlyEmploy</code>:</h3>
+<ul>
+    <li>Inherits from <code>Employ</code>.</li>
+    <li><strong>Additional Attributes:</strong> Holds hourly rate and hours worked.</li>
+    <li><strong>Constructor:</strong> Initializes the attributes using the superclass constructor.</li>
+    <li><strong>Methods:</strong>
+        <ul>
+            <li><code>weeklySalary()</code>: Calculates and prints weekly salary based on hours worked.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Subclass - <code>SalariedEmploy</code>:</h3>
+<ul>
+    <li>Inherits from <code>Employ</code>.</li>
+    <li><strong>Additional Attribute:</strong> Holds monthly salary.</li>
+    <li><strong>Constructor:</strong> Initializes monthly salary along with employee details.</li>
+    <li><strong>Methods:</strong>
+        <ul>
+            <li><code>weeklySalary()</code>: Calculates and prints weekly salary based on the monthly salary.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Subclass - <code>ExecutiveEmploy</code>:</h3>
+<ul>
+    <li>Inherits from <code>SalariedEmploy</code>.</li>
+    <li><strong>Additional Attributes:</strong> Holds age, experience, and bonus percentage.</li>
+    <li><strong>Constructor:</strong> Initializes executive details including the bonus percentage.</li>
+    <li><strong>Methods:</strong>
+        <ul>
+            <li><code>bonusPercentage()</code>: Calculates and prints total payroll based on the monthly salary and bonus percentage.</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>Main Class - <code>Lab3p1</code>:</h3>
+<ul>
+    <li>Contains the <code>main()</code> method to create instances of <code>HourlyEmploy</code>, <code>SalariedEmploy</code>, and <code>ExecutiveEmploy</code>.</li>
+</ul>
 
