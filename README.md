@@ -82,3 +82,12 @@
     <li>Contains the <code>main()</code> method to create instances of <code>HourlyEmploy</code>, <code>SalariedEmploy</code>, and <code>ExecutiveEmploy</code>.</li>
 </ul>
 
+
+<h1>LAB-4</h1>
+<h2>ABSTARCT CONCEPT</h2>
+<p>can't create the object for abstract class
+    Partially completed --> because object can't be created
+    can have abstract method+non-abstracting methods
+    Abstract Method only have the method call/not the method definition</p>
+<img width="364" alt="image" src="https://github.com/user-attachments/assets/3c95f415-f75a-481d-88d1-5b25b25a563a">
+
